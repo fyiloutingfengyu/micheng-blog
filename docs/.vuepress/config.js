@@ -3,6 +3,7 @@ const navConfig = require('./config/nav/index'); // 导航配置
 module.exports = {
   title: '迷城技术',
   description: '技术博客技术博客技术博客技术博客技术博客',
+  base: '/micheng-blog/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta',
